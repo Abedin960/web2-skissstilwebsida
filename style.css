@@ -6,7 +6,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} 
+
 
 .stora-bilder {
     display: flex;
@@ -48,4 +49,70 @@ nav a{
     color: white;
  
 
+} 
+
+nav a:hover{
+    color: #f5f5f5;
+    text-decoration: underline;
+}   
+
+footer {
+    background-color: #211612;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+responsive {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+responsive img {
+    width: 100%;
+    height: auto;
+}
+
+stora-bilder {
+    display: flex;
+    gap: 0;
+}
+
+stora-bilder img {
+    width: 50%;
+    height: auto;
+}
+
+object {
+    width: 100%;
+    height: auto;
+}   
+
+stora-bilder {
+    display: flex;
+    gap: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}   
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
